@@ -1,0 +1,58 @@
+React is a open source JS library created and maintained by meta. React is used for better user Interface. 
+React divides whole application/UI into multiple small reusable parts called components
+React is also used to create single page applications
+
+React was first released in 2013 by facebook(meta). it was initially used for building facebook news feed,later it was open sourced and its community got increased
+
+Advantages of React:
+ 1. fast and efficient
+ 2. React code easy to understand and maintain(declarative code)
+ 3.React is a component based architecture used to build large and active community of developers
+ 
+ How to start first react code?
+  Don't use create-react-app
+
+  1. open vs code --> open a folder -->open terminal --> new terminal --> cd folder-name --> 
+  npm create vite@latest
+
+  vite is a modern web developmenet build tool that provides fast and efficient way to build and serve web applications
+    Enter project name--->select react--> javascript +Enter
+
+    vite will scaffold all the folder with respective project name
+    "cd projectName"
+    "npm install"
+    "npm run dev"
+
+2. goto folder --> src---> App.jsx --> delete htl code and write new HTML code and save(cntrl+s) and verify output 
+
+vite will run your code on every change called HMR(Hot module Reloading)
+Folder Structure:
+   vite installs many files and folders when creating react app. Each and every file folder descriptions are:
+
+   i. vite.config.js -- it contains rules that vite bundler follows
+   ii. Readme.md -- it contains instructions of our project.
+   iii. package.json -- it contains meta data of your project
+   iv. package.lock.json -- it contains met data of each library in node_modules
+   iv. index.html -- it is the main HTML file
+   v. eslint.cong.js -- used for error finding errors of every library
+   vi. gitignore -- contains list of files or folders that needs to ignored by git
+   vii. public -- contains all the files that needs to resourced(images,pdf,etc..,)
+   viii. node_modules -- contains all the packages will be here
+   ix. src -- contains all main jsx code
+      main.jsx -- it is the main file to connect index.html and it renders
+      App.jsx into index.html
+
+      App.jsx -- it is a component that can be repreated multiple times
+
+
+
+
+React JSX:  JSX stands for javascript xml, it is nothing but using HTML inside JS. JSX will return only one value
+
+
+
+
+
+
+
+ 

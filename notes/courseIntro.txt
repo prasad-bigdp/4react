@@ -1,0 +1,93 @@
+1. what is React JS?
+        React JS is javascript library used for UI Purposes, created and maintained by meta
+
+It is the most demanding skill needed in current trend
+
+2. Requirements: HTML,CSS and JS(variables,datatypes,loops,condition statements, 
+functions, arrays-- map,forEach,filter,reduce,promises,
+async await,DOM)
+
+3. React vs Angular:
+      React is JS library(pre written code used for specific purpose). Angular is a framework(complete environment a developer needs)
+     React is easy and functional based. Angular uses class based techniques
+     React supports one way data binding and angular supports two way data binding
+  React is like system which other items to be install 
+libraries
+. angular is like technology where third part libraries are not needed.
+
+React JS Course:
+  i. course duration: 4.05-4.10   --- 5.40-5.45
+  ii. course period: 30 sessions
+iii. course Topics:
+            1. react introduction(jsx,props,components)
+            2. components
+            3. types of componets
+             4. lifeCycle method
+                   -- lists & condtional rendering
+            5. useState,useEffect
+                  context API
+             6. forms
+            7. routing
+            8. hooks
+            9. redux
+             10. Realtime project -- 
+             Basic ecommerce or basic OTT
+    Important checks before React:
+    1.  Do you all have VSCode? if not, please dowload and install
+    2. Do you all have nodejs? if not,please dowload and install
+NodeJs contains a package manager called 'npm'(node package manager)
+    npm is used to install/uninstall any packages of javascript.
+    you can verify using command prompt with "npm -v" 
+    for latest version: npm install npm@version-number or 
+npm install node@latest
+  3. what is a function in javascript?
+       function is a block of code to perform a specific task . The main advantage of the function is reusability
+
+   function function-name()
+  {
+       console.log("hello world")
+  }
+   function-name()
+
+ 4. what is the difference between normal function and arrow function?
+    // normal function
+     function sum(a,b){
+      return a+b;
+     }
+     sum(5,6)
+    //arrow function
+     var sum = (a,b) => a+b; 
+     sum(5,6)
+
+ 5. how to use ES6 modules in javascript?
+     Ecmascript provides "ES6" modules in 2015. it is used to share data from one JS file to another js file
+  default exports and imports
+           //x.js
+          let a=25,b=35;  
+         export default a;
+         //y.js
+         import a from 'x.js'
+        console.log(a)
+per one document, only one value default export is possible
+named exports and imports:
+      //x.js
+          let a=25,b=35;  
+         export default {a,b};
+         //y.js
+         import {a,b} from 'x.js'
+        console.log(a,b)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
