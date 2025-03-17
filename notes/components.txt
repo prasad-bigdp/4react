@@ -1,0 +1,29 @@
+React Components are the building blocks of React application.
+by default, React application creates a root component called App.
+A component is a small, reusable piece of code that represents a UI element. components are flexible, modular and reusable
+React Provides two kinds of components
+ i. functional components:
+    what is a functional component?
+       functional component also called stateless component that are simple components which receives props and returns JSX.
+    How to create our own functional components?
+       create a file functional-component-name.jsx and add a function which return an UI and export the function
+       const Header = () =>
+       {
+        return (
+        <h2>My Website</h2>
+        )
+       } 
+       export default Header
+       It is recommanded to have same name for component similar to file name. 
+    Inside SRC, create a file with properNAME(starts with uppercase letter), you can keep all pcomponents in one single application
+    How to use functional components?
+      import functional components into other components and use them as HTML elements
+    nested components:
+       A component inside another component is called nested component
+
+
+
+
+
+
+ ii. class components
