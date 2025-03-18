@@ -20,6 +20,32 @@ React Provides two kinds of components
       import functional components into other components and use them as HTML elements
     nested components:
        A component inside another component is called nested component
+          //App.jsx
+          <Header />
+     
+     props: props are used to send the values from parent components to child component. props is shortform of "properties"
+     we send properties as attributes and receives the properties as parameters of function
+     eg:
+       //App.jsx
+       <Header name="PRASAD" />
+       //Header.jsx
+       function Header(props){
+         return (
+            <h2>{props.name}</p>
+         )
+
+       }
+
+       props is always an object of properties
+
+
+
+
+
+
+
+
+
 
 
 
