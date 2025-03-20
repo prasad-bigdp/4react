@@ -1,12 +1,13 @@
 import React from 'react'
 import './App.css'
-import Fun from './components/Fun'
 import Cls from './components/Cls'
-function App() {
+function App ()
+{
+ let a1 = 55, a2 = 25;
   return (
     <div>
-      <Cls />
-      <Fun />
+      <Cls n="shekhar" a={a1} />
+      <Cls n="raj" a={a2} />
     </div>
   )
 }
