@@ -22,7 +22,7 @@ iii. course Topics:
             1. react introduction(jsx,props,components)
             2. components
             3. types of componets
-             4. lifeCycle method
+            4. lifeCycle method
                    -- lists & condtional rendering
             5. useState,useEffect
                   context API
