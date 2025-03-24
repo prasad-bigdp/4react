@@ -1,0 +1,4 @@
+To list certain elements again and again using array.map() might give probelms to the VDOm, To sollve this issue, we use lists. 
+  every list should have a key value and for printing/displaying multiple values, wr use conditional rendering
+  Ternary operator:
+       <p>{data?'<p>Good</p>':'<p>bad</p>'}</p>
