@@ -1,0 +1,18 @@
+components can send data  from parent component to child component called props. props are the short form of properties
+child component receives props as a object in parameters
+
+parent component creates a function and send it to child component  and child component adds/modify a value and retuns to parent component
+
+props can have code / data inside elements content
+This is called props children
+
+There is a probelm dealing with props called "PROP DRILLING"
+Prop drilling means passing data from parent to child in deep nested.even though  components in middle doesn't use them but stillneeded to be paased
+
+You can solve this using context API
+
+state: state is the dynamic value that is changed and everytime a state changes , component re-renders such that only the elements that got changed will be updated
+state is a object.
+In functional components, we can get state using useState
+useState returns an array of value and method to updated
+state method is asynchronous method
