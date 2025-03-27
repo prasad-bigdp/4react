@@ -1,0 +1,30 @@
+what is API?
+      Application Programming Interface. it is used to connect othre Applications such as third oarty services or backend of our application
+
+      To get the data from Api, we use fetch or axios
+      fetch(url) will return a promise
+      we can solve promise using then and catch
+
+      fetch is default browser method and axios is a 3rd party library
+
+      Every Asynchronous function will return a promise
+
+
+useEffect is a hook equivalent to componentDidMount and componentDidUpdate
+useEffect is used to handle side effects(changes in the DOM/dynamic value from an API)
+useEffect(callback fn,[dependencies array])
+There are three possibilities
+ 1. if there is no dependencies array, then callback fn will run on every state changes
+2. if empty dependencies are there , then callback fn will run on only one time
+3. if dependencies are mentioned, then callback fn will run only for that dependencies
+
+
+
+
+
+
+
+
+
+
+

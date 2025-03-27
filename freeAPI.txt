@@ -1,0 +1,11 @@
+dummyjson
+random quote generator
+random joke generator
+random.me
+fakestoreapi
+samplejson
+nasaapi
+openweatherapi
+omdb Api
+tmdb Api
+etc..,
