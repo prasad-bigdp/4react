@@ -1,0 +1,26 @@
+In React, Everything is built with components. components can be nested i.e., one component inside another component
+<Comp1>
+   a=20;
+   <Compo2> </comp2>
+</Comp1>
+
+<Comp2>
+     <Comp3></Comp3>
+</Comp2>
+
+<Comp3>
+   <Comp4></Comp4>
+</Comp3>
+
+To sent a value from comp1 to comp4 , we need to pass through comp2 and comp3 even though they doesn't need the value. This Situation is called PROP Drilling
+
+To solve Prop Drilling React Suggests a simple way called Context API
+How to implement context API?
+  1.create a global context to store the value
+    To create a global , we use createContext method
+  2. create a provide that wraps the context and provides the data to its child components
+  3. use the Context using 'useContext' hook
+
+The main advantage of Context API are state management and PROP Drilling can be solved
+
+state management: it is dynamic managaging of all the stated existed in our application
