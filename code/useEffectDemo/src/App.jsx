@@ -1,38 +1,38 @@
 import React, { useEffect, useState } from 'react'
-import './App.css'
+
 function App ()
 {
   const [count, setCount] = useState(0)
+  const [input, setInput] = useState('')
   const [data,setData]=useState({})
-  useEffect( function ()
+  async function fetchData ()
   {
-    //   setTimeout(()=>console.log("hello"),10000);
-    // fetch("https://dummyjson.com/quotes/random")
-    //   .then((res) => res.json())
-    //   .then((data)=>setData(data))
-    //   .catch((err)=>console.log(err))
-    async function fetchData()
+    try
     {
-      try
-      {
-        const res = await fetch("https://dummyjson.com/quotes/random")
-        console.log(res)
-				const d = await res.json()
-				setData(d)
-      }
-      catch (err)
-      {
-        console.log(err)
-      }
+      const res = await fetch("https://official-joke-api.appspot.com/random_joke")
+    const data = await res.json()
+    setData(data)
     }
-    setInterval(()=>fetchData(),10000)
-  }, [])
+    catch (err)
+    {
+      console.log(err)
+    }
+  }
+
+
+  useEffect(() =>
+  {
+    console.log("hi") // it will run first time automatically
+    fetchData();
+  },[count])
   return (
-    <div className='box'>
-      {/* <p>{count}</p>
-      <button onClick={()=>setCount(count+1)}>click me</button> */}
-      <h2>{data.quote}</h2>
-      <p>{data.author}</p>
+    <div>
+      <div>
+        <h2>{data.setup}</h2>
+        <p>{data.punchline}</p>
+      </div>
+      <p>{count}</p><button onClick={() => setCount(count + 1)}>+</button>
+      <input type="text" value={input} onChange={(e)=>setInput(e.target.value)}/>
     </div>
   )
 }

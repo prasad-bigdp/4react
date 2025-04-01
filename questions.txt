@@ -11,3 +11,5 @@
 11. Explains lists in react
 12. what is prop drilling? how to solve it?
 13. what is context API? How it works?
+14. how to handle API requests in react?
+15. how to use useEffect

@@ -9,6 +9,7 @@ what is API?
 
       Every Asynchronous function will return a promise
 
+//REST API -- REPRESENTATIONAL STATE TRANSFER
 
 useEffect is a hook equivalent to componentDidMount and componentDidUpdate
 useEffect is used to handle side effects(changes in the DOM/dynamic value from an API)
