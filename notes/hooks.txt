@@ -1,0 +1,41 @@
+Hook is a way to use React features in functional components like life cycle methods for class components.They allow you to hook into "react" state.
+Hooks are always starts with "use"
+ i. useState: useState is used to add state to functional components . it returns state value and function to update the state value
+ const [v,setValue]= useState(5);
+ initial v value is 5,
+ setValue(10) -->v value will change to 10
+ ii. useEffect: useEffect is used to perform sideEffects such as setting Timers or fetching data etc..,
+  it will be called automatically when component run first Timers
+  useEffect(callbackfn,dependency array)
+   1. useEffect(()=>console.log("hello world))
+      it will call the callback automatically every time any state changes in our components/application because there is no dependency array
+   2. useEffect(()=>console.log("hello world),[])
+    it will call the callback only one time because dependency array is empty
+   3. useEffect(()=>console.log("hello world"),[value1,value2])
+    it will call the callback automatically every time value1 or value2 state changes in our application 
+ iii. useContext: useContext is used to solve the probelm of prop drilling. when nested of components involves data sharing, one component has to send data to its child and it should goes on till nested component. This passing of dat to unneccessary components to reach final component is called "prop drilling"
+
+      useContext is used to take the value stored "context"
+    const data= useContext(contextName)
+
+ 4. useCallback : callback is a function which is used in parameter of another function. useCallback is a hook that allows you to mention a function so that its not created on every render
+const [btn,setBnt]=useState
+
+
+const handlData=useCallback(()=>{
+
+},[dependencies])
+
+if dependencies state changes then it will return a new callback function else it will have same callback function like catched function. it is used to optimise the react application
+
+5. custom Hook:
+custom hooks are used for user defined actions. we can create our own hook by following basic rules
+A hook is a function that starts with "use" and returns a value
+
+
+
+
+
+
+
+
