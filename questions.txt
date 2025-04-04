@@ -2,9 +2,12 @@
 2. what is JSX? what are the advantages of JSX over JS?
 3. what is a component? how many types of components are in React?
 4. Explain difference between functional and class components
-5. what are lifecycle methods? explain a few
-6. what are hooks? how to use state in functional components?
+5. what are lifecycle methods? explain a few (componentDidMount)
+6. what are hooks? how to use state in functional components? (useState)
 7. what is virtual DOM and how it works (Diffusion)?
+  7.1 . Does Browser understand JSX? if not, then how browser are rendering the output
+       (babel,transpiler will convert jsx into js)
+  7.2 what is difference between vite and create-react-app (webpack)
 8. what are props? how to send props from parent to child and child to parent
 9. Explain working of useState in Detail
 10. what is conditional rendering?
@@ -12,4 +15,4 @@
 12. what is prop drilling? how to solve it?
 13. what is context API? How it works?
 14. how to handle API requests in react?
-15. how to use useEffect
+15. how to use useEffect?

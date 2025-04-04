@@ -19,8 +19,6 @@ Hooks are always starts with "use"
     const data= useContext(contextName)
 
  4. useCallback : callback is a function which is used in parameter of another function. useCallback is a hook that allows you to mention a function so that its not created on every render
-const [btn,setBnt]=useState
-
 
 const handlData=useCallback(()=>{
 
@@ -32,7 +30,14 @@ if dependencies state changes then it will return a new callback function else i
 custom hooks are used for user defined actions. we can create our own hook by following basic rules
 A hook is a function that starts with "use" and returns a value
 
+6. useMemo:
+ useMemo is used to remember or to memorize a value unlike useCallback which remebers a function
 
+it also accepts 2 parameters function and dependency array.
+function will return a value which will be cached and will be calculated only if state value of dependencies changes.
+
+
+There are so many hooks used in react, most famous ones are useState,useEffect,useContext,useCallback,useMemo, custom hook
 
 
 

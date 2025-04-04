@@ -1,0 +1,28 @@
+Routing is not possible in react directly, instead, we use a library 'react-router-dom'
+step 1: install react-router-dom
+   npm install react-router-dom
+step 2: create components
+step 3: make whole App within browser router context
+step 4: mention all RouterPaths within Routes and each uses Route tag
+<Routes>
+				<Route
+					path=''
+					Component={Home}></Route>
+				<Route
+					path='about'
+					Component={About}></Route>
+				<Route
+					path='projects'
+					Component={Projects}></Route>
+				<Route
+					path='contact'
+					Component={Contact}></Route>
+</Routes>
+
+step 5: create link/navigation to redirect to specific path
+	<div>
+			<Link to='/'>Home</Link>
+			<Link to='/about'>about</Link>
+			<Link to='/projects'>Projects</Link>
+			<Link to='/contact'>contact</Link>
+	</div>
