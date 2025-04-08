@@ -1,0 +1,7 @@
+In React, you can deal the forms in two ways
+i. using state 
+ii. using useRef
+Based on approach, React divides components as two types
+i. controlled components
+ii. uncontrolled components
+i. controlled components: These components uses state to store or access inputs values. user can control these components
