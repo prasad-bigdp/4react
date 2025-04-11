@@ -14,3 +14,42 @@ export default defineConfig({
 
 step 3: goto index.css and type 
 @import "tailwindcss";
+
+
+
+Libraries:
+
+   -- icons
+   lucid icons: https://lucide.dev/ , react icons: https://react-icons.github.io/react-icons/
+
+   -- CSS
+   bootstrap: https://getbootstrap.com/, tailwindcss - https://tailwindcss.com/, 
+   @emotion/react- https://emotion.sh/
+
+   --  forms 
+    react hooks form  - https://www.react-hook-form.com/, formik - https://formik.org/
+
+  -- validations: YUP - https://foxhound87.github.io/mobx-react-form/docs/validation/plugins/YUP/setup.html,
+   Zod  -  https://zod.dev/
+
+  -- Authentication(JWT) & authorization(Role based login): 
+  https://auth0.com/ ,  firebase, supabase, appwrite
+
+  -- animations:
+  GSAP , react three fiber , framer motion, 
+
+  -- sliders
+  swiper js, slick js
+
+  -- others
+  https://react-pdf.org/, https://react.email/,  React Scan
+
+  UI Libraries:
+  material UI, Aceternity UI, chakra UI, Ant Design, https://ui.shadcn.com/
+
+  -- state management
+  redux, zustad
+
+
+
+

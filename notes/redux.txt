@@ -1,0 +1,20 @@
+Redux is a state management library which is used to manage global state values. it's architecture contains following things:
+    i. store: In redux , there should be only one store to store all the state value
+    ii. Reducer: In redux , there will be functions which are used to update state value in store  called reducers
+      eg:
+         function x(){
+            if (HIT_wall=true){
+                //store update 4
+            }
+         }
+    iii. Action: the actions make the reducer active/wake. 
+        eg: HIT_Wall
+    iv. component:components triggers events and events dispatches actions
+
+    Redux got upgraded as redux toolkit:it helps to simplify building redux applications. it provides a set of utilities and API's  that makes it easier to create and manage stores,reducers and actions.
+      i. consfigureStore: it ia a function that creates store with a set of default seetting  (with reducer and actions)
+      ii. createReducer: A function that can handle  the multiple actions
+      iii. createAction:A function that creates a slice of the Redux State.
+
+
+

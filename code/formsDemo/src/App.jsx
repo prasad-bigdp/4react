@@ -9,10 +9,10 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>   
+    <div className=' max-w-7xl m-auto flex gap-2 h-screen justify-center items-center'>   
       <Controlled />
       <Uncontrolled />
-    </>
+    </div>
   )
 }
 

@@ -4,4 +4,22 @@ ii. using useRef
 Based on approach, React divides components as two types
 i. controlled components
 ii. uncontrolled components
-i. controlled components: These components uses state to store or access inputs values. user can control these components
+i. controlled components: These components uses state to store or access inputs values. user can control these components.
+
+
+const [n,setN]=useState('')
+
+
+<form>
+   <input type="text" plaeholder="Enter text" value={n} onChange={(e)=>setN("prasad")} />
+</form>
+
+ii. unControlled components: In unControlled Components, the value will be takes using DOM. we use a hook called useRef to do DOM Manipulations.
+
+const name=useRef('')
+<form>
+   <input type="text" plaeholder="Enter text" ref={name}/>
+</form>
+
+React uses libraries to handle forms like react hook form or formik
+for validation , we use libraries like zod,yup etc..,
