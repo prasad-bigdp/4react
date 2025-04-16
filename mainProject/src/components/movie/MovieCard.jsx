@@ -1,10 +1,13 @@
 import React from 'react'
 
-function MovieCard() {
+function MovieCard ({ id, title, posterPath })
+{
+  const link = `https://image.tmdb.org/t/p/w500/${posterPath}`
   return (
-    <div>
-      <h1>Movie Card</h1>
-    </div>
+    <>
+      <img src={link}  alt={title} className=' rounded-2xl'/>
+      <h2 className=' text-2xl font-bold'>{title}</h2>
+    </>
   )
 }
 

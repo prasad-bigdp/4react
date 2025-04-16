@@ -15,6 +15,7 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.5.0",
+    "react-slideshow-image": "^4.3.2",
     "swiper": "^11.2.6",
     "tailwindcss": "^4.1.4"
   },

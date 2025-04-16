@@ -8,7 +8,7 @@ import Contact from './pages/Contact'
 import NotFound from './pages/NotFound'
 import Movie from './pages/Movie'
 import Footer from "./components/Footer"
-
+import './App.css'
 function App() {
   return (
     <>

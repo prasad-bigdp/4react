@@ -1,57 +1,46 @@
 import React from 'react'
-// Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, Pagination, Navigation } from "swiper/modules"
+import { Slide } from "react-slideshow-image"
+import "react-slideshow-image/dist/styles.css"
 
-import "swiper/css"
-import "swiper/css/pagination"
-import "swiper/css/navigation"
-// Import Swiper styles
-import 'swiper/css';
 
-function HeroBanner() {
+function HeroBanner ()
+{
+
   return (
 		<div className=' p-5'>
-			<Swiper
-				spaceBetween={30}
-				centeredSlides={true}
-				autoplay={{
-					delay: 2500,
-					disableOnInteraction: false,
-				}}
-				pagination={{
-					clickable: true,
-				}}
-				navigation={true}
-				modules={[Autoplay, Pagination, Navigation]}
-				className='mySwiper'
-				style={{ width: "100vw" }}>
-				<SwiperSlide style={{ width: "100vw" }}>
-					<img
-						src='https://rukminim2.flixcart.com/image/850/1000/kavefm80/poster/w/x/z/medium-the-marvel-avengers-wall-poster-for-room-with-gloss-original-imafsckr6vt3wjjv.jpeg?q=20&crop=false'
-						alt='marvel'
-						className=' object-cover w-100'
-					/>
-				</SwiperSlide>
-				<SwiperSlide>
-					<img
-						src='https://www.tallengestore.com/cdn/shop/products/JurassicPark-TRexDinosaur-HollywoodMoviePoster_6afc984c-2cb7-42ad-ae30-a38dd7cff650.jpg?v=1648215413'
-						alt='jurassic park'
-					/>
-				</SwiperSlide>
-				<SwiperSlide>
-					<img
-						src='https://dcassetcdn.com/design_img/16298/35582/35582_406182_16298_image.jpg'
-						alt='Reverend'
-					/>
-				</SwiperSlide>
-				<SwiperSlide>
-					<img
-						src='https://m.media-amazon.com/images/I/81lkpobqkVL.jpg'
-						alt='XMEN'
-					/>
-				</SwiperSlide>
-			</Swiper>
+			<Slide
+			  autoplay={true}
+			  infinite={true}
+				onChange={function noRefCheck() {}}
+				onStartChange={function noRefCheck() {}}>
+				<div className='each-slide-effect'>
+					<div
+						style={{
+							backgroundImage:
+								"url(https://images.unsplash.com/photo-1509721434272-b79147e0e708?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80)",
+						}}>
+						<span>Slide 1</span>
+					</div>
+				</div>
+				<div className='each-slide-effect'>
+					<div
+						style={{
+							backgroundImage:
+								"url(https://images.unsplash.com/photo-1506710507565-203b9f24669b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1536&q=80)",
+						}}>
+						<span>Slide 2</span>
+					</div>
+				</div>
+				<div className='each-slide-effect'>
+					<div
+						style={{
+							backgroundImage:
+								"url(https://images.unsplash.com/photo-1444525873963-75d329ef9e1b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80)",
+						}}>
+						<span>Slide 3</span>
+					</div>
+				</div>
+			</Slide>
 		</div>
 	)
 }
