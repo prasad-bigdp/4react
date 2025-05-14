@@ -16,3 +16,11 @@
 13. what is context API? How it works?
 14. how to handle API requests in react?
 15. how to use useEffect?
+16. what is useMemo? what is difference between useMemo and useCallback?
+17. what is the difference between controlled and uncontrolled components?
+18. what is hook used to handle form data without useState?
+19.what is react-router-dom and browserRouter?
+20. what is difference between anchor tag and Link tag?
+21. what is redux and how many stores it have?
+22. explain react architecture .
+23. questions on libraries
